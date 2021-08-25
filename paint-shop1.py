@@ -4,8 +4,8 @@ consider that the coverage of paint is 1 liter for each 3 square meters, and the
 that costs R$ 80.00
 give me the number of paint cans to be selled and the total price'''
 
-one_liter = 3
-one_can = 18
+one_liter = 3 #1 liter for each 3 square meters
+one_can = 18 #18 liters each can
 meters = float(input("how many square maters are you going to paint? "))
 liters = meters / one_liter
 cans = liters / one_can
